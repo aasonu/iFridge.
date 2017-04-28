@@ -1,0 +1,29 @@
+{
+  "name": "ifridge",
+  "version": "1.0.0",
+  "description": "It's a totally awesome RFID integrated, Arduino powered fridge software that tells you whats inside the fridge.",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^0.1.22",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "events": "^1.1.1",
+    "express": "^2.5.11",
+    "foundation-sites": "^6.3.0",
+    "jquery": "^3.2.1",
+    "mongodb": "^1.4.40",
+    "multer": "^1.2.0",
+    "net": "^1.0.2",
+    "rc522-rfid": "^14.1.10",
+    "socket.io": "^0.9.17",
+    "twilio": "^2.11.1",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ayomide sonuga",
+  "license": "ISC"
+}

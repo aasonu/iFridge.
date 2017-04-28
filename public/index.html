@@ -1,0 +1,93 @@
+<!doctype html>
+<link rel="stylesheet" type="text/css" href="css/app.css" />
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+	<!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>iFridge</title>
+	
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css" />
+	
+	
+</head>
+<body>
+
+<!-- Set the topbar -->
+<nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false">
+<header class="header">
+  <h1 class="headline">iFridge</small></h1>
+  <ul class="header-subnav">
+  <!-- Sets the modal -->
+  <p><a data-open="exampleModal1">About</a></p>
+	<div class="reveal" id="exampleModal1" data-reveal>
+	<h1>iFridge</h1>
+	<p class="lead">A website that displays the contents of a fridge. It is powered by an Arduino Uno microcontroller and RFID technology.</p>
+	<button class="close-button" data-close aria-label="Close modal" type="button">
+		<span aria-hidden="true">&times;</span>
+	</button>
+</div>
+  </ul>
+</header>
+<!-- end of the topbar -->
+
+<!-- main content -->
+<div class="row">
+	
+<table>
+  <thead>
+    <tr>
+      <th width="200">ITEM</th>
+      <th width="200">EXPIRY DATE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+	
+<!-- Footer -->
+  
+  <footer class="row">
+    <div class="twelve columns">
+      <hr />
+      <div class="row">
+        <div class="six columns">
+          <p>&copy; Copyright ayomide</p>
+        </div>
+      </div>
+    </div> 
+  </footer>	
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+	<script src="javascripts/highcharts.js"></script>
+	<script src="js/foundation/foundation.reveal.js"></script>
+	<script src="js/foundation/foundation.topbar.js"></script>
+    <script src="js/app.js"></script>
+	<script src="javascripts/app.js"></script>
+	
+	<script>
+		$(document).foundation();
+	</script>
+	
+  </body>
+</html>
